@@ -17,3 +17,9 @@ function fizzBuzz () {
 }
 
 fizzBuzz();
+
+$('#love_you').hide();
+
+$('#love').click(function(){
+    $('#love_you').fadeIn('slow');
+});
